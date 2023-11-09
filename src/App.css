@@ -1,0 +1,65 @@
+/* mobile */
+@media (max-width: 600px) {
+  .contact {
+    width: 40vw;
+    font-size: 15px;
+  }
+  .write-up {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: x-large;
+  }
+  .view {
+    width: 40vw;
+  }
+  .body {
+    height: 50vh;
+  }
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about {
+    width: 90vw;
+  }
+  .my-services {
+    width: 90vw;
+    height: 310vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .parent-section-body {
+    height: 365vh;
+    display: flex;
+  }
+  .section-about {
+    width: 90vw;
+  }
+  .parent-section-about {
+    height: 210vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .section-about-text {
+    width: 80vw;
+  }
+  .services-paragraph {
+    padding-left: 17px;
+  }
+  .view-more {
+    width: 45vw;
+    height: 8vh;
+    margin-bottom: 7px;
+  }
+  .works1 {
+    @apply h-[60vh];
+  }
+  .img-work {
+    @apply w-[80vw];
+  }
+}
