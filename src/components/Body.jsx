@@ -1,4 +1,5 @@
 import Portfolios from "./Portfolios";
+import Resume from "./Resume";
 import React from "react";
 import { TbBrandTailwind } from "react-icons/tb";
 import { DiHtml5 } from "react-icons/di";
@@ -23,7 +24,7 @@ function Body() {
           </h1>
           <div className="h-[15vh] flex flex-col justify-between">
             <p className="md:font-black md:text-4xl text-white font-serif ">
-              Personal portfolio
+              Front-end developer
             </p>
             <a
               href="#"
@@ -167,6 +168,7 @@ function Body() {
         </a>
       </section>
       <Portfolios />
+      <Resume />
     </>
   );
 }
